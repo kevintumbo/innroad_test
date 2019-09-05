@@ -4,7 +4,7 @@ import './header.sass'
 function Header({heading}) {
     return (
         <div className="header">
-            <h1>{heading}</h1>
+            <h1 className="header_text">{heading}</h1>
         </div>
     )
 }
