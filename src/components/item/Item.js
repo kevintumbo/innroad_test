@@ -4,8 +4,8 @@ import './styles.sass'
 function Item ({item}) {
     return (
         <div className="itemContainer">
-            <h3>{item.itemTitle}</h3>
-            <p>{item.description}</p>
+            <h3 className="itemTitle">{item.itemTitle}</h3>
+            <p className="itemDescription">{item.description}</p>
         </div>
     )
 }
