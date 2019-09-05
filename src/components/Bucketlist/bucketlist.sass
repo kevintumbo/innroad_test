@@ -1,0 +1,27 @@
+@import "../../styles/mixins.sass"
+
+.bucketlist_Container 
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+
+    @include for-phone-only
+        flex-direction: column
+
+    @include for-tablet-portrait-up
+        flex-wrap: wrap
+
+    @include for-tablet-landscape-up
+        flex-wrap: nowrap
+
+.single_bucketlist
+    width: 20%
+
+    @include for-phone-only 
+        width: 100%
+
+    @include for-tablet-portrait-up
+        width: 40%
+
+    @include for-tablet-landscape-up
+        width: 20%
