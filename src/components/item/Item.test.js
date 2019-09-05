@@ -33,7 +33,6 @@ test('renders item container without error', () => {
 
 test('renders item name and description', () => {
     const wrapper = setUp();
-    console.log(wrapper.debug())
     const title = wrapper.find('.itemTitle')
     expect(title.length).toBe(1);
     const description = wrapper.find('.itemDescription')

@@ -2,7 +2,7 @@ import { createStore, combineReducers, compose, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import  { bucketlist }  from '../redux/reducers';
 
-const rootReducer = combineReducers({
+export const rootReducer = combineReducers({
     bucketlist
 })
 
