@@ -24,9 +24,7 @@ export const fetchBucketList = () => async (dispatch) => {
             list
 
         })
-        console.log('response', list);
     }catch (error) {
-        console.log('error', error);
         dispatch({
             type: FETCH_BUCKETLISTS_FAILURE,
             message: 'Failure to fetch bucketlist'
