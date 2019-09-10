@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './styles.sass'
+import './item.sass'
 function Item ({item}) {
     return (
         <div className="itemContainer">
